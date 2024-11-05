@@ -1,0 +1,15 @@
+shift + alt + f (identar)
+shift + ctrl + p (menu)
+shift + alt + baixo (clonar)
+
+ctrl + c (copiar)
+ctrl + v (colar)
+ctrl + x (recortar)
+ctrl + z (voltar ao estado anterior - desfazer)
+ctrl + shift + z (voltar ao desfeito)
+alt + seta (andar a linha)
+ctrl + D (seleciona tags iguais)
+ctrl + / (comentar simplificadamente)
+
+ctrl + b (tira o explorador de arquivos)
+shift + k (exibir ou não barra de atividade)
