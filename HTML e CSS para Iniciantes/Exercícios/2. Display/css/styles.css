@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+.container {
+  margin-top: 10%;
+}
+.locomotivas {
+  display: block;
+  background-color: #000;
+  margin-bottom: 20px;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.locomotivas h2 {
+  color: #b2b2b2;
+  margin-bottom: 15px;
+}
+
+.locomotivas span {
+  color: #febe01;
+}
+.locomotivas p {
+  color: #b2b2b2;
+}
+
+.locomotivas button {
+  margin-top: 15px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #febe01;
+  color: #111;
+  font-weight: 600;
+}
