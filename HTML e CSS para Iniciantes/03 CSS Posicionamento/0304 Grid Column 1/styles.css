@@ -4,41 +4,38 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.titulo {
-  grid-column: 2;
-  text-align: right;
+.foto {
+  grid-column: 1 / -1;
+
 }
 
- /*  (grid-column: 1/-1) Ocupa tudo, independente da inclusão de colunas */
 
-
-
-
-/* Estilos gerais */
-
+/* Estilos Gerais */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 40px;
 }
 
-
-h1, p {
-  margin: 0;
-}
-
-h1{
-font-size: 48px;
-line-height: 1;
-}
-
-p, span {
-  font-size: 20px;
+h1,
+p {
+  margin: 0px;
 }
 
 img {
   max-width: 100%;
   border-radius: 4px;
 }
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
 .comprar {
   background: #a8f;
   padding: 10px 20px;
@@ -51,11 +48,10 @@ img {
   -o-border-radius: 4px;
   font-weight: 600;
   font-size: 20px;
-
 }
 
 .preco {
-  background-color: #ddd;
+  background: #ddd;
   padding: 5px 10px;
   border-radius: 4px;
 }
