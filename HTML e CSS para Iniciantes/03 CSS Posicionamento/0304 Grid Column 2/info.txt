@@ -1,0 +1,3 @@
+1/-1 sempre ocupa o máximo
+
+span 2 -> expande duas colunas. A partir do inicial.

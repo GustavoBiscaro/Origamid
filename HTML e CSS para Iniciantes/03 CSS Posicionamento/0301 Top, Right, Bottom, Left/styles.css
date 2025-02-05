@@ -2,12 +2,13 @@
   display: inline-block;
   background: #ddd;
 }
+padding: 20px 40px; (20px para top e bottom e 40px para left e right)
 
 span {
   padding: 30px;
   padding: 20px 40px;
-  padding: 40px 100px 200px 10px;
-  border: 10px solid #000;
+  padding: 40px 100px 200px 10px; (top, right, bottom, left)
+  border: 10px solid #000; 
   border-top: 20px solid blue;
   border-width: 30px 60px;
 } */
