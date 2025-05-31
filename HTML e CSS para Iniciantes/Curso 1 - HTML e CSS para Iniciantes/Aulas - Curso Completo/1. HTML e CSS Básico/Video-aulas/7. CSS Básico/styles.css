@@ -1,0 +1,15 @@
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+/* O que vier depois terá mais relevância */
+
+a {
+  color: black;
+  font-size: 32px;
+}
+
+/* 
+Neste caso prevalece a cor preta e isso também vale para arquivos .css, caso haja mais de uma estilo e tiver propriedades iguais
+*/
