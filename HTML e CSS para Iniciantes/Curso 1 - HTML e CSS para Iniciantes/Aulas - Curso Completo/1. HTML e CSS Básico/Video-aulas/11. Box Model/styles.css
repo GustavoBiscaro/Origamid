@@ -1,0 +1,23 @@
+div {
+  background: #aaa;
+  width: 140px;
+  height: 80px;
+  padding: 30px;
+  /* 140 + 30 + 30 = 200px, ou seja, ele soma o padding da direita e da esquerda */
+  /* height: 80 + 30 + 30 = 140px, ou seja, ele soma o padding de cima e de baixo */
+  border: 10px solid #111;
+  margin: 30px;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #111;
+  margin: 40px;
+
+  /* Num duelo de margem, caso ambas as margens sejam aplicadas, a maior é a que prevalece */
+}
