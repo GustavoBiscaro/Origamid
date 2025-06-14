@@ -1,0 +1,4 @@
+align-content: verticalmente
+justify-content: horizontalmente
+
+place-content: align-content justify-content
