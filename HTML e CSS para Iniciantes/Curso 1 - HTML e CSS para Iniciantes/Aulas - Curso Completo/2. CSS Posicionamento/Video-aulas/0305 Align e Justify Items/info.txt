@@ -1,0 +1,5 @@
+Align-Items: É responsável pelo alinhamento de acordo ao eixo cruzado (vertical ou horizontal)
+dos itens flex dentro de uma linha flex.
+(verticalmente)
+
+Align-Content: É responsável pelo alinhamento de acordo ao eixo cruzado das linhas flex de acordo ao flex container.
