@@ -13,3 +13,5 @@ ctrl + / (comentar simplificadamente)
 
 ctrl + b (tira o explorador de arquivos)
 shift + k (exibir ou não barra de atividade)
+
+Alt + setas [cima ou baixo] - arrastar linha
