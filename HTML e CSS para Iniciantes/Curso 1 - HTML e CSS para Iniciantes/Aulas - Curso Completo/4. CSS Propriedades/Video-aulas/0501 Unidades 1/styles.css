@@ -1,0 +1,48 @@
+/* a {
+    text-decoration: none;
+    color: white;
+    background: darkblue;
+    display: inline-block;
+}
+
+p {
+    background: lightblue;
+}
+
+
+  .px {
+    font-size: 24px;
+    padding: 16px 32px;
+} 
+
+
+html {
+    font-size: 32px;
+}
+
+
+.rem {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+} 
+
+*/
+
+div {
+    font-size: 200%; /* Ao mudar num elemento ancestral, o em é afetado. O rem só é afetado quando muda o elemento raiz, que no caso é o próprio html. */
+}
+
+html {
+    font-size: 200%;
+}
+.px {
+    font-size: 32px;
+}
+
+.em {
+    font-size: 2em; /* 200% + 200% */
+}
+
+.rem {
+    font-size: 2rem;
+}
