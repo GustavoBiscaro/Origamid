@@ -8,6 +8,18 @@
 </head>
 
 <body>
+  <h1 id="texto">Olá, Mundo!</h1>
+  Parte sem estilo
+  <style>
+    h1 {
+      color: blueviolet;
+    }
+  </style>
+
+  <script>
+    function mudarCor() { texto.style.color = "blue"; }
+    texto.addEventListener("click", mudarCor);
+  </script>
 
 </body>
 
