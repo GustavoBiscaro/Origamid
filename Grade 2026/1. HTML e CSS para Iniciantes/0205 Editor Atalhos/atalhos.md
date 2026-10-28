@@ -1,0 +1,5 @@
+- CTRL C (Copia)
+- CTRL X (Recorta)
+- CTRL V (Cola)
+- CTRL Z (Desfaz)
+- CTRL Shift Z (Refaz)
