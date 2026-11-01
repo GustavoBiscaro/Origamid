@@ -1,0 +1,32 @@
+/* Seleciona todos os elementos <h1> e <a> */
+h1,
+a {
+  color: red;
+}
+
+/* Seleciona todos os elementos <p> que contêm um elemento <a> dentro deles */
+p a {
+  color: black;
+  font-weight: bold;
+}
+
+/* # Seleciona o elemento com o ID "logo" */
+#logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: purple;
+}
+ul {
+  list-style-type: none;
+}
+
+/* . Seleciona todos os elementos com a classe "codigo" */
+.codigo {
+  color: blue;
+  font-weight: bolder;
+}
+
+/* . Seleciona todos os elementos com a classe "design" */
+.design {
+  color: deeppink;
+  font-weight: bolder;
+}
