@@ -1,0 +1,27 @@
+div {
+  background: #aaa; /*Define a cor de fundo do elemento como cinza claro (#aaa) */
+  width: 140px; /*Define a largura do elemento como 140px */
+  height: 80px; /*Define a altura do elemento como 80px */
+  padding: 30px; /* Define o preenchimento interno de 30px */
+  border: 10px solid #111; /* Adiciona uma borda sólida de 10px com cor hexadecimal #111 */
+
+  /* Definição total = 220 x 160px (largura + padding + borda) */
+
+  /* 
+  
+  O motivo na qual gerou esse valor se deve ao box-sizing padrão do CSS, que é o content-box. Isso significa que a largura e altura definidas no elemento não incluem o padding e a borda, portanto, o tamanho total do elemento é calculado somando a largura, altura, padding e borda.
+
+  Por definição temos um width de 140px, um padding esquerdo de 30px, um padding direito de 30px, uma borda esquerda de 10px e uma borda direita de 10px. Portanto, a largura total do elemento seria representado por essa soma.
+
+  Então a soma seria: 140 + 30 + 30 + 10 + 10 = 220px para largura.
+
+  Para altura, temos um height de 80px, padding superior de 30px, padding inferior de 30px, borda superior de 10px e borda inferior de 10px. Portanto, a altura total do elemento é:
+
+  80 + 30 + 30 + 10 + 10 = 160px para altura.
+
+  */
+
+  /* Ao adicionar uma margin de 30px, o tamanho total do elemento será 220 x 160px + 30px de margem em todos os lados, resultando em um tamanho total de 280 x 220px. */
+
+  margin: 30px; /* Adiciona uma margem de 30px em todos os lados do elemento */
+}
