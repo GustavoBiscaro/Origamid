@@ -30,4 +30,8 @@ div {
 h1 {
   background: #84e;
   padding: 20px;
+  border: 4px solid #111;
+  margin: 40px;
 }
+
+/* Se houver uma margem acima de 30px do elemento acima, e 50px de margem top do elemento abaixo, vai prevalecer apenas o maior, neste caso, os 50px */

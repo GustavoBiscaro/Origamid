@@ -1,0 +1,35 @@
+body {
+  /* writing-mode: vertical-lr;  */
+  /* Escrever na vertical */
+  box-sizing: border-box;
+}
+
+span,
+a,
+strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+h1,
+p,
+h2,
+div {
+  border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+a {
+  background: #ddd;
+  padding: 10px;
+  text-decoration: none;
+  width: 160px;
+  height: 30px;
+  margin: 20px;
+}
+
+.inlineblock {
+  display: inline-block;
+}
+
+.esconde {
+  display: none;
+}
