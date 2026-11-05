@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 div {
   background: #aaa; /*Define a cor de fundo do elemento como cinza claro (#aaa) */
   width: 140px; /*Define a largura do elemento como 140px */
@@ -21,7 +24,10 @@ div {
 
   */
 
-  /* Ao adicionar uma margin de 30px, o tamanho total do elemento será 220 x 160px + 30px de margem em todos os lados, resultando em um tamanho total de 280 x 220px. */
+  margin: 30px; /* 30px margin-top, margin-right, margin-bottom, margin-left */
+}
 
-  margin: 30px; /* Adiciona uma margem de 30px em todos os lados do elemento */
+h1 {
+  background: #84e;
+  padding: 20px;
 }
