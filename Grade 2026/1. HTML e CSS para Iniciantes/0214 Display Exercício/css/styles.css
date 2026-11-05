@@ -1,0 +1,47 @@
+:root {
+  --Amarelo1: #febe01;
+  --Amarelo2: #332200;
+  --Preto: #111;
+  --Cinza: #b2b2b2;
+  --Fonte: Arial;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--Fonte);
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+h1,
+h2,
+p,
+span,
+div {
+  text-align: center;
+}
+p {
+  color: var(--Cinza);
+}
+strong,
+span {
+  color: var(--Amarelo1);
+}
+
+button {
+  background: var(--Amarelo1);
+  color: var(--Preto);
+  padding: 10px;
+  border-color: var(--Preto);
+  border-radius: 4px;
+}
+
+div {
+  background-color: var(--Preto);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 4px;
+}
