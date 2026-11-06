@@ -1,0 +1,11 @@
+img {
+  /* max-width: 100%; */ 
+  /*max-width garante que a imagem não ultrapasse o tamanho do container*/
+  width: 300px;
+  /* a diferença entre width e max-width é que o width define um tamanho fixo, enquanto o max-width define um tamanho máximo, permitindo que a imagem seja redimensionada proporcionalmente se necessário */
+  margin: 20px;
+}
+
+body {
+  background: lightblue;
+}
