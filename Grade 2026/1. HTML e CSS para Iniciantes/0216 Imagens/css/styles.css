@@ -1,9 +1,13 @@
 img {
-  /* max-width: 100%; */ 
+  max-width: 100%;
   /*max-width garante que a imagem não ultrapasse o tamanho do container*/
-  width: 300px;
   /* a diferença entre width e max-width é que o width define um tamanho fixo, enquanto o max-width define um tamanho máximo, permitindo que a imagem seja redimensionada proporcionalmente se necessário */
-  margin: 20px;
+  display: block;
+  /* display padrão de uma imagem é inline, ou seja, ela se comporta como um elemento em linha */
+  /* ao colocar o display como block, a imagem passa a se comportar como um elemento de bloco, ocupando toda a largura disponível e permitindo que margens e padding sejam aplicados corretamente */
+  /* ao colocar o display como block, a imagem também deixa de ter espaço em branco abaixo dela, que é causado pelo alinhamento com a linha de base do texto */
+  /* ao colocar o display inline-block, a imagem se comporta como um elemento em linha, mas ainda permite que margens e padding sejam aplicados corretamente */
+  /* a diferença entre inline e inline-block é que o inline-block permite que o elemento tenha largura e altura definidas, enquanto o inline não permite */
 }
 
 body {

@@ -1,0 +1,13 @@
+img {
+  max-width: 100%;
+  display: block;
+  width: 600px;
+}
+
+body {
+  background: lightblue;
+  font-family: sans-serif;
+  padding: 2rem;
+
+  /* png gera uma imagem de fundo transparente, já o svg é vetorizado, já o jpeg não suporta transparência */
+}
